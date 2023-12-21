@@ -1,0 +1,262 @@
+
+@import url('header.css');
+@import url('main-page.css');
+@import url('ferrari.css');
+@import url('ktm.css');
+@import url('reservation.css');
+@import url('akce.css');
+@import url('servis.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, h1, h2, h3, p, ul, ol, li, dl, dt, dd, div, span {
+    margin: 0; 
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline; 
+}
+
+body {
+    min-width: 1900px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #000;
+    color: #fff;
+    font-weight: 400;
+    line-height: 1;
+}
+
+.root {
+    width: 100%;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-row-center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer {
+    width: 100%;
+    background-color: #011;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 40px 0 100px 0;
+}
+
+.footer-s {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: space-evenly;
+    text-align: center;
+    width: fit-content;
+}
+
+.footer-s p{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    line-height: 2em;
+    cursor: pointer;
+} 
+
+.footer-s h1 {
+    text-decoration: none;
+    color: #fff;
+    font-size: 40px;
+    line-height: 3em;
+} 
+
+.hamburger-active {
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    width: 20px;
+    height: 20px;
+}
+
+@media screen and (max-width: 700px) {
+    .main-page-video h1 {
+        font-size: 30px;
+    }
+
+    .main-page-hero-single-left img {
+        width: 400px;
+    }
+
+    .reservation-l,
+    .reservation-r {
+        width: 90%;
+        height: fit-content;
+    }
+
+    .reservation-l div iframe {
+        width: 100%;
+        height: 400px;
+    }
+
+    .ferrari-pot-r h1 {
+        font-size: 30px
+    }
+
+    .ferrari-pot-r p {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .header-right {
+        display: none;
+    }
+
+    .main-page-video h1 {
+        font-size: 40px;
+    }
+
+    .main-page-choose-s {
+        flex-direction: column;
+    } 
+    .main-page-hero h1 {
+        font-size: 40px;
+    }
+
+    .main-page-hero-single-right h1 {
+        font-size: 40px;
+    }
+
+    .main-page-hero-single-right p {
+        font-size: 18px;
+        width: 90%;
+        text-align: center;
+    }
+
+    .main-page-choose-s-l img {
+        width: 400px;
+        height: 300px;
+    }
+
+    .main-news-img-1 {
+        background-image: url(../assets/main-news-1.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 400px;
+    }
+    
+    .main-news-img-2 {
+        background-image: url(../assets/main-news-2.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 400px;
+    }
+    
+    .main-news-img-3 {
+        background-image: url(../assets/main-news-3.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 400px;
+    }
+    
+    .main-news-img-4 {
+        background-image: url(../assets/main-news-4.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 400px;
+    }
+
+    .main-page-news h1 {
+        font-size: 40px;
+    }
+
+    .main-page-news-s {
+        font-size: 18px;
+    }
+
+    .main-page-choose-s-r button {
+        margin-top: 0px;
+    }
+
+    .ferrari-hero h1 {
+        letter-spacing: 0em;
+    }
+
+    .ferrari-features-s {
+        text-align: center;
+    }
+
+    .ferrari-features-s h1 {
+        font-size: 30px;
+    }
+
+    .ferrari-features-s p {
+        font-size: 20px;
+    }
+}
+
+
+@media screen and (max-width: 1300px) {
+    .main-page-hero-single {
+        flex-direction: column;
+    }
+
+    .main-page-news-c {
+        flex-direction: column;
+    }
+
+    .ferrari-pot-s {
+        flex-direction: column;
+    }
+
+    .ktm-images {
+        flex-direction: column;
+    }
+
+    .ktm-features-s {
+        flex-direction: column;
+    }
+
+    .reservation {
+        flex-direction: column;
+    }
+
+    .header-mid {
+        display: none;
+    }
+
+    .main-page-video h1 {
+        font-size: 60px;
+    }
+
+}
+
+@media screen and (min-width: 1501px) and (max-width: 2000px) {
+    
+}
+
+@media screen and (min-width: 2000px) {
+    .ktm-big-screen {
+        margin-left: 400px;
+    }
+}

@@ -1,0 +1,123 @@
+
+header {
+    width: 100%;
+    height: 60px;
+    background-color: #000;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.header-left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 40px;
+}
+
+.header-left img {
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+}
+
+.header-left a {
+    text-decoration: none;
+}
+
+.header-left a h1 {
+    font-size: 28px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.header-option-1:hover .header-mid-drop-1,
+.header-option-1 .header-mid-drop-1:hover {
+    position: absolute;
+    top: 60px;
+    width: fit-content;
+    height: fit-content;
+    background-color: #000;
+    z-index: 999;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 60px;
+}
+
+.header-mid {
+    height: 100%;
+}
+
+.header-mid-option {
+    margin-right: 40px;
+    height: 120%;
+}
+
+.header-mid-drop-1 {
+    position: absolute;
+    top: 0px;
+    width: 0px;
+    height: 0px;
+    background-color: #000;
+    z-index: -999;
+    display: none;
+}
+
+.header-mid-drop-1 a {
+    text-decoration: none;
+}
+
+.header-mid-drop-1 a p {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.5em;
+    margin: 8px 0;
+    cursor: pointer;
+}
+
+.header-mid-option h1 {
+    font-size: 20px;
+    margin-right: 10px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.header-mid-option img {
+    width: 14px;
+    height: 20px;
+}
+
+.header-right {
+    margin-right: 40px;
+    gap: 20px;
+}
+
+.header-right a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.header-right button {
+    border: 1px solid #fff;
+    color: #fff;
+    background-color: #000;
+    outline: none;
+    width: 110px;
+    height: 36px;
+    border-radius: 22px;
+    font-size: 16px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.header-right a button {
+    color: #000;
+    background-color: #fff;
+}

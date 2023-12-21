@@ -1,0 +1,268 @@
+
+.lambo-akce {
+    width: 100%;
+    height: 100vh;
+    animation: lambo-bg-anim 10s infinite;
+}
+
+@keyframes lambo-bg-anim {
+    0% {
+        background-image: url;
+    }
+}
+
+
+.akce-pro {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    animation: pro-bg-anim 14s infinite;
+}
+
+@keyframes pro-bg-anim {
+    0% {
+        background-image: url('../assets/car-race-1.jpg');
+    }
+    30% {
+        background-image: url('../assets/car-race-1.jpg');
+    }
+    33% {
+        background-image: url('../assets/car-race-2.jpg');
+    }
+    60% {
+        background-image: url('../assets/car-race-2.jpg');
+    }
+    66% {
+        background-image: url('../assets/car-race-3.jpg');
+    }
+    90% {
+        background-image: url('../assets/car-race-3.jpg');
+    }
+    100% {
+        background-image: url('../assets/car-race-1.jpg');
+    }
+}
+
+.akce-pro-top {
+    margin-bottom: 0px;
+}
+
+.akce-pro-top h1 {
+    font-size: 80px;
+    font-weight: 400;
+    letter-spacing: 0.15em;
+    margin-top: 180px;
+
+}
+
+.akce-pro-top h2 {
+    font-size: 54px;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    margin-top: 80px;
+}
+
+.akce-pro-mid {
+    width: 100%;
+    margin-top: 220px;
+    margin-bottom: 160px;
+    padding: 60px 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.akce-pro-mid div h1 {
+    font-size: 32px;
+}
+
+.akce-pro-mid div hr {
+    margin: 6px 0;
+}
+
+.akce-z {
+    width: 100%;
+    background-color: #000;
+    border-top: 1px solid #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 80px;
+}
+
+.akce-z-top {
+    width: 100%;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.akce-z-top-l {
+    display: flex;
+    flex-direction: row;
+}
+
+.akce-z-top-l h1 {
+    font-size: 26px;
+    margin-right: 12px;
+}
+
+.akce-z-top-l-b {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.akce-z-top-l-b img {
+    width: 40px;
+    height: 40px;
+    margin: 0 8px;
+}
+
+.akce-z-top-r {
+    width: 1200px;
+}
+
+.akce-z-top-r p {
+    line-height: 2em;
+}
+
+.akce-z-hero {
+    width: 100%;
+    margin-top: 80px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+
+.akce-z-hero hr {
+    width: 100%;
+    border-color: #1c1c1c;
+}
+
+.akce-z-hero h1 {
+    margin-top: 120px;
+    font-size: 80px;
+    font-weight: 300;
+}
+
+.akce-z-hero p {
+    margin-top: 80px;
+    font-size: 20px;
+    width: 1300px;
+    line-height: 2em;
+}
+
+.akce-z-hero-images {
+    padding: 120px 0;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.akce-z-hero-images img {
+    width: 600px;
+}
+
+.akce-z-features-toptext {
+    font-size: 70px;
+    margin: 40px 0 140px 0;
+
+}
+
+.akce-z-f {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.akce-z-f h1 {
+    margin-top: 120px;
+    margin-bottom: 180px;
+    font-size: 70px;
+    font-weight: 300;
+}
+
+.akce-z-f-single {
+    width: 90%;
+    padding: 0 80px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.akce-z-f-single p {
+    line-height: 1.5em;
+}
+
+.akce-z-f-single-l img {
+    width: 200px;
+}
+
+.akce-z-f-single-r {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+}
+
+.akce-z-f-single-r h1{
+    font-size: 40px;
+    margin: 0 0 40px 0;
+    padding: 0;
+}
+
+.akce-z-reg {
+    width: 700px;
+    border-radius: 40px;
+    border: 1px solid #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.akce-z-reg h1 {
+    font-size: 60px;
+    margin-top: 60px;
+}
+
+.akce-z-reg input {
+    margin-top: 80px;
+    margin-bottom: 30px;
+    width: 340px;
+    height: 50px;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    padding-left: 20px;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.akce-z-reg button {
+    width: 150px;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 60px;
+    cursor: pointer;
+}
