@@ -1,0 +1,135 @@
+
+@import url('header.css');
+@import url('main-page.css');
+@import url('ferrari.css');
+@import url('ktm.css');
+@import url('reservation.css');
+@import url('akce.css');
+@import url('servis.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, h1, h2, h3, p, ul, ol, li, dl, dt, dd, div, span {
+    margin: 0; 
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline; 
+}
+
+body {
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #000;
+    color: #fff;
+    font-weight: 400;
+    line-height: 1;
+    overflow-x: hidden;
+}
+
+.root {
+    width: 100%;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-row-center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer {
+    width: 100%;
+    background-color: #011;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 40px 0 100px 0;
+}
+
+.footer-s {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: space-evenly;
+    text-align: center;
+    width: fit-content;
+}
+
+.footer-s p{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    line-height: 2em;
+    cursor: pointer;
+} 
+
+.footer-s h1 {
+    text-decoration: none;
+    color: #fff;
+    font-size: 40px;
+    line-height: 3em;
+} 
+
+
+@media screen and (max-width: 900px) {
+    
+}
+
+
+@media screen and (min-width: 900px) and (max-width: 1300px) {
+    .main-page-hero-single {
+        flex-direction: column;
+    }
+
+    .main-page-news-c {
+        flex-direction: column;
+    }
+
+    .ferrari-pot-s {
+        flex-direction: column;
+    }
+
+    .ktm-images {
+        flex-direction: column;
+    }
+
+    .ktm-features-s {
+        flex-direction: column;
+    }
+
+    .reservation {
+        flex-direction: column;
+    }
+
+}
+
+@media screen and (min-width: 1501px) and (max-width: 2000px) {
+    
+}
+
+@media screen and (min-width: 2000px) {
+    .ktm-big-screen {
+        margin-left: 400px;
+    }
+}

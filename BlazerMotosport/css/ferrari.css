@@ -1,0 +1,92 @@
+
+.ferrari {
+    width: 100%;
+    background-color: #000;
+}
+
+.ferrari-hero {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../assets/ferrari-hero.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.ferrari-hero h1 {
+    position: absolute;
+    top: 85%;
+    left: 52%;
+    transform: translate(-50%);
+    z-index: 999;
+    font-size: 80px;
+    letter-spacing: 1em;
+}
+
+.ferrari-features {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-image: url(../assets/ferrari-features-bg.jpg);
+    margin-bottom: 220px;
+}
+
+.ferrari-features-s {
+    width: 400px;
+    height: 200px;
+    margin: 180px 0;
+    background: rgb(255,255,255);
+    background: linear-gradient(270deg, rgba(255,255,255,1) 0%, rgba(200,200,200,1) 50%, rgba(255,255,255,1) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.ferrari-features-s h1 {
+    color: #000;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.ferrari-features-s p {
+    color: #000;
+    font-size: 30px;
+}
+
+.ferrari-pot {
+    width: 100%;
+    gap: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 80px;
+    gap: 220px;
+    overflow-x: hidden;
+}
+
+.ferrari-pot-l img {
+    width: 800px;
+}
+
+.ferrari-pot-space {
+    gap: 40px;
+}
+
+.ferrari-pot-r {
+    width: 580px;
+
+}
+.ferrari-pot-r h1 {
+    font-size: 40px;
+    margin-bottom: 60px;
+}
+
+.ferrari-pot-r p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5em;
+}
